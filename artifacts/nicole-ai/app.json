@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Nicole La Porchetta AI",
+    "slug": "nicole-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "nicole-ai",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#e85d8a"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.nicole.porchetta.ai"
+    },
+    "android": {
+      "package": "com.nicole.porchetta.ai",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#e85d8a"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://replit.com/"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "geminiApiKey": "$GEMINI_API_KEY"
+    }
+  }
+}
