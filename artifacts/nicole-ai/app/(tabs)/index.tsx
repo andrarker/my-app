@@ -372,7 +372,7 @@ export default function ChatScreen() {
         <View style={[styles.messageRow, isUser ? styles.userRow : styles.nicoleRow]}>
           {!isUser && (
             <Image
-              source={{ uri: "https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&w=100" }}
+              source={require("../../assets/images/nicole_avatar.jpg")}
               style={styles.avatar}
             />
           )}
@@ -400,7 +400,7 @@ export default function ChatScreen() {
       <View style={[styles.header, { backgroundColor: colors.headerBg, paddingTop: insets.top + 8 }]}>
         <View style={styles.headerLeft}>
           <Image
-            source={{ uri: "https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&w=100" }}
+            source={require("../../assets/images/nicole_avatar.jpg")}
             style={styles.headerAvatar}
           />
           <View>
