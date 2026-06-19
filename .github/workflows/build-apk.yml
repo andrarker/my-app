@@ -30,7 +30,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Installa dipendenze
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
 
       - name: Expo Prebuild
         working-directory: artifacts/nicole-ai
