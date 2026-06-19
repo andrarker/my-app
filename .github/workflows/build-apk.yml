@@ -42,7 +42,7 @@ jobs:
 
       - name: Build APK Debug
         working-directory: artifacts/nicole-ai/android
-        run: ./gradlew assembleDebug --no-daemon
+        run: ./gradlew assembleDebug --no-daemon -PbundleInDebug=true
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
