@@ -4,13 +4,13 @@
     "slug": "nicole-ai",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/nicole_avatar.jpg",
     "scheme": "nicole-ai",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/images/icon.png",
-      "resizeMode": "contain",
+      "image": "./assets/images/nicole_avatar.jpg",
+      "resizeMode": "cover",
       "backgroundColor": "#e85d8a"
     },
     "ios": {
@@ -20,7 +20,7 @@
     "android": {
       "package": "com.nicole.porchetta.ai",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/icon.png",
+        "foregroundImage": "./assets/images/nicole_avatar.jpg",
         "backgroundColor": "#e85d8a"
       }
     },
